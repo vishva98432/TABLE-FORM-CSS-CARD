@@ -1,0 +1,16 @@
+/* MOBILE VIEW */
+@media (max-width:768px) {
+    body{
+        width: auto;}
+  
+}
+/* TABLET VERSION */
+@media(min-width:769px) and (max-width:1200px){
+    body{       
+    flex-shrink: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
